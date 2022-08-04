@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Libre+Franklin:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#BCAA93 ;
+    
+}
+nav{
+    margin: 20px;
+}
+nav h1{
+    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: #ccc;
+}
+nav a{
+  text-decoration: none;
+}
+a :hover{
+  color:#704910;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+nav li{
+    float: left;
+    padding: 5px;
+  }
+  nav li a {
+  color: #704910;
+    font-size: 15px;
+    font-family: 'Lora', serif;
+    display: block;
+   padding-left: 10px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: #704901 solid;
+    
+}
+li a:hover {
+    background-color: #704910;
+  } 
+  header{
+    margin: 5px;
+  }
+header input {
+    padding: 10px;
+    font-size: 20px;
+    border: solid  #704910 ;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 480px;
+
+  }
+header button {
+    padding: 8px 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    border-radius: 8px 8px 8px 8px;
+  }
+button:hover {
+    background: #704910;
+  }
+header input[type=text] {
+    border: 1px solid #ccc;  
+  }
+  .ma{
+    border: #704910 solid;
+  }
+.container{
+  margin-top: 30px;
+  
+}
+
+  .card-image img {
+    float: left;
+    width: 120px;
+    height: 150px;
+    margin: 5px;
+}
+.card-info h3{
+  padding-left: 10cm;
+  font-size: 30px;
+  text-decoration: none;
+  font-family:'Lora', serif ;
+  color: #704910;
+}
+.card-info p{
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding-left: 150px;
+  font-family:'Lora', serif ;
+}
+.card-info a{
+border: #704910 solid;
+padding: 10px;
+text-decoration: none;
+color: #704910;
+margin-left: 400px;
+margin-bottom: 20px;
+}
+a:hover{
+  background-color: #704910;
+  color: #ccc;
+}
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+.pagination{
+  text-align: center;
+  margin: 30px 30px 60px;
+  user-select: none;
+}
+
+.pagination li{
+  display: inline-block;
+  margin: 5px;
+  box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+}
+
+.pagination li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  line-height: 45px;
+}
+
+.previous-page, .next-page{
+  background: #704901;
+  width: 80px;
+  border-radius: 45px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.previous-page:hover{
+  transform: translateX(-5px);
+}
+
+.next-page:hover{
+  transform: translateX(5px);
+}
+
+.current-page, .dots{
+  background: #ccc;
+  width: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.active{
+  background: #704910;
+}
+
+.disable{
+  background: #ccc;
+}
